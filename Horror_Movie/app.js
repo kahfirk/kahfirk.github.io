@@ -1,6 +1,6 @@
 const API_Key = 'api_key=80689e52a4f65d58050c47dc30e5c578';
 const Base_URL = 'https://api.themoviedb.org/3';
-const API_URL = Base_URL + '/discover/movie?with_genres=27&primary_release_year=2021&'+ API_Key;
+const API_URL = Base_URL + '/discover/movie?with_genres=27&'+ API_Key;
 
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = Base_URL + '/search/movie?' + 'with_genres=27&primary_release_year=2021&' + API_Key;
